@@ -74,6 +74,10 @@
   margin-right: 1.6rem !important;
 }
 
+.margin-bottom-md {
+  margin-bottom: 4.8rem !important;
+}
+
 /***********************************/
 /* HEADER */
 .header {
@@ -117,6 +121,7 @@
 .grid-center-v {
   align-items: center;
 }
+
 strong {
   font-weight: 500;
 }
