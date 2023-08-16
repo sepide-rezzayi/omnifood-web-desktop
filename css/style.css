@@ -326,7 +326,6 @@ body {
   grid-template-columns: 1fr 1fr;
   gap: 4.8rem;
   column-gap: 8rem;
-
 }
 
 .testmonial-img {
@@ -343,7 +342,7 @@ body {
 
 .tetstmonial-name {
   font-size: 1.6rem;
-  color: #6F6f6f;
+  color: #6f6f6f;
 }
 
 /* !gallory  */
@@ -368,7 +367,6 @@ body {
   transform: scale(1.1);
 }
 
-
 /* ?pricing section */
 
 .section-pricing {
@@ -376,18 +374,15 @@ body {
 }
 
 .pricing-plan {
-
   border-radius: 11px;
 
   width: 75%;
-
 }
 
 .pricing-plan--starter {
   justify-self: end;
   border: 2px solid #fdf2e9;
   padding: 4.8rem;
-
 }
 
 .pricing-plan--complete {
@@ -421,7 +416,6 @@ body {
   font-weight: 600;
   color: #333333;
   margin-bottom: 1.6rem;
-
 }
 
 .paln-price span {
@@ -437,17 +431,42 @@ body {
   text-transform: uppercase;
   letter-spacing: 0.75;
   margin-bottom: 3.2rem;
-
 }
 
 .paln-text {
   font-size: 1.6rem;
   line-height: 1.6;
-  color: #6F6f6f;
+  color: #6f6f6f;
 }
 
 .plan-sing-up {
   text-align: center;
   margin-top: 4.8rem;
+}
+.plan-details {
+  font-size: 1.6rem;
+  line-height: 1.6;
+  text-align: center;
+}
 
+.featre-title {
+  font-size: 2.4rem;
+  color: #333333;
+  font-weight: 700;
+  margin-bottom: 1.6rem;
+}
+
+.feature-text {
+  font-size: 1.8rem;
+  line-height: 1.8;
+}
+
+.feature-icon {
+  padding: 1.6rem;
+  border-radius: 50%;
+  background-color: #fdf2e9;
+  color: #e67e22;
+  height: 2.4rem;
+  width: 2.4rem;
+  margin-bottom: 3.2rem;
 }
