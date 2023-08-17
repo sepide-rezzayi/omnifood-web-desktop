@@ -35,24 +35,41 @@
   text-transform: uppercase;
   margin-bottom: 1.6rem;
 }
-
+.btn,
 .btn:link,
 .btn:visited {
   display: inline-block;
   text-decoration: none;
+  font-family: inherit;
   font-size: 2rem;
   font-weight: 600;
   padding: 1.6rem 3.2rem;
   border-radius: 9px;
   transition: all 0.3s;
+  border: none;
+  cursor: pointer;
 }
-
+.btn-form {
+  background-color: #45260a;
+  color: #fdf2e9;
+  align-self: end;
+  padding: 1.2rem;
+}
+.btn-form:hover {
+  background-color: #fff;
+  color: #555;
+}
 .btn-full:visited,
 .btn-full:link {
   background-color: #e67e22;
   color: #fff;
 }
-
+*:focus {
+  outline: none;
+  /* outline: 4px dotted #e67e22;
+  outline-offset: 8px; */
+  box-shadow: 0 0 0 0.8rem rgba(230, 125, 34, 0.5);
+}
 .link:link,
 .link:visited {
   color: #e67e22;
@@ -148,6 +165,9 @@ grid:not(:last-child) {
   grid-template-columns: repeat(4, 1fr);
 }
 
+.grid-5-cols {
+  grid-template-columns: repeat(5, 1fr);
+}
 .grid-center-v {
   align-items: center;
 }
