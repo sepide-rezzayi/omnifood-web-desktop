@@ -293,6 +293,7 @@ body {
 }
 
 .list-item {
+  line-height: 1.2;
   font-size: 1.8rem;
   display: flex;
   gap: 1.6rem;
@@ -472,7 +473,7 @@ body {
   margin-bottom: 3.2rem;
 }
 
-/* ?section CALL TO ACTION */
+/* !section CALL TO ACTION */
 .section-cta {
   padding: 4.8rem 0 12.8rem 0;
 }
